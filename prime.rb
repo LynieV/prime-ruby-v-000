@@ -7,4 +7,4 @@ def prime?(number)
   end
 end
 
-num
+number = 4
