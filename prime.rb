@@ -3,7 +3,7 @@
 def prime?(number)
   if number < 2 && number != 2 || (2..number-1).any? {|n| number % n == 0}
     false
-  else (2..number-1).all? {|n| number % 2 != 0 && number % n != 0}
+  else 
     true
   end
 end
