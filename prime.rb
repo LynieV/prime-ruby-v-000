@@ -1,5 +1,4 @@
 # Add  code here!
-number = 4
 
 def prime?(number)
   if (2..number-1).all? {|n| number % 2 != 0 && number % n != 0}
@@ -9,3 +8,4 @@ def prime?(number)
   end
 end
 
+prime?(4)
