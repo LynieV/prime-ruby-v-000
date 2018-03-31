@@ -1,6 +1,6 @@
 # Add  code here!
-def prime?(numbers)
-  if numbers % 2 == 0 && numbers == 1 &&  
+def prime?(number)
+  if number % 2 == 0 && number == 1 &&  
     false
   end
 end
